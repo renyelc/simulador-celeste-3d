@@ -1,0 +1,71 @@
+{
+  "versao": 1,
+  "tempo_dias": 0.0,
+  "suavizacao_ua": 1e-07,
+  "pausar_colisao": true,
+  "corpos": [
+    {
+      "id": "ca5462b5092c4a54a1716d6ad37ff20d",
+      "nome": "Estrela A",
+      "tipo": "Estrela",
+      "estrela_id": "",
+      "massa_kg": 1.98847e+30,
+      "raio_km": 696340,
+      "posicao_ua": [
+        -0.7411743137817176,
+        -1.1633187869192701e-05,
+        -3.7798518686784233e-06
+      ],
+      "velocidade_km_s": [
+        2.554983457126475e-05,
+        -11.918919182940185,
+        1.1516463049836822e-06
+      ],
+      "cor": "#ffcb62",
+      "raio_visual_px": 15,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "63b65a6b59fb4c15a2b549ea88ed7bea",
+      "nome": "Estrela B",
+      "tipo": "Estrela",
+      "estrela_id": "",
+      "massa_kg": 1.391929e+30,
+      "raio_km": 500000,
+      "posicao_ua": [
+        1.0588256862182825,
+        -1.1633187869192701e-05,
+        -3.7798518686784233e-06
+      ],
+      "velocidade_km_s": [
+        2.554983457126475e-05,
+        17.027036012035815,
+        1.1516463049836822e-06
+      ],
+      "cor": "#a2c9ff",
+      "raio_visual_px": 12,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "1b7dae604eec46d89e45b3b2808f1a27",
+      "nome": "Planeta externo",
+      "tipo": "Livre",
+      "estrela_id": "",
+      "massa_kg": 5.9722e+24,
+      "raio_km": 6371,
+      "posicao_ua": [
+        -1.2208008096551863,
+        6.584644961627395,
+        2.13948084073351
+      ],
+      "velocidade_km_s": [
+        -14.461778780829304,
+        -2.00621143450761,
+        -0.6518576098791958
+      ],
+      "cor": "#78ddc4",
+      "raio_visual_px": 7,
+      "fator_distancia_visual": 1.0
+    }
+  ]
+}

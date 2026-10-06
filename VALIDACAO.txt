@@ -1,0 +1,35 @@
+VALIDACAO DO SIMULADOR CELESTE 3D
+Python: 3.12.14
+
+test_adaptive_step_shrinks_at_approach (simulador_celeste.run_tests.<locals>.Tests.test_adaptive_step_shrinks_at_approach) ... ok
+test_all_examples_evolve (simulador_celeste.run_tests.<locals>.Tests.test_all_examples_evolve) ... ok
+test_camera_and_run_validation (simulador_celeste.run_tests.<locals>.Tests.test_camera_and_run_validation) ... ok
+test_camera_depth_and_rotation (simulador_celeste.run_tests.<locals>.Tests.test_camera_depth_and_rotation) ... ok
+test_circular_orbit_one_period (simulador_celeste.run_tests.<locals>.Tests.test_circular_orbit_one_period) ... ok
+test_collision_is_atomic_and_swept (simulador_celeste.run_tests.<locals>.Tests.test_collision_is_atomic_and_swept) ... ok
+test_free_motion (simulador_celeste.run_tests.<locals>.Tests.test_free_motion) ... ok
+test_inclined_orbit_and_vis_viva (simulador_celeste.run_tests.<locals>.Tests.test_inclined_orbit_and_vis_viva) ... ok
+test_momentum_conservation (simulador_celeste.run_tests.<locals>.Tests.test_momentum_conservation) ... ok
+test_mutual_attraction (simulador_celeste.run_tests.<locals>.Tests.test_mutual_attraction) ... ok
+test_reject_invalid_scenarios (simulador_celeste.run_tests.<locals>.Tests.test_reject_invalid_scenarios) ... ok
+test_round_trip (simulador_celeste.run_tests.<locals>.Tests.test_round_trip) ... ok
+test_softening_at_coincidence (simulador_celeste.run_tests.<locals>.Tests.test_softening_at_coincidence) ... ok
+test_time_reversal (simulador_celeste.run_tests.<locals>.Tests.test_time_reversal) ... ok
+test_visual_parent_anchor (simulador_celeste.run_tests.<locals>.Tests.test_visual_parent_anchor) ... ok
+test_visual_scales_leave_dynamics_identical (simulador_celeste.run_tests.<locals>.Tests.test_visual_scales_leave_dynamics_identical) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.172s
+
+OK
+
+CENARIOS EM DISCO: 365 DIAS COM PASSO MAXIMO 0,05 DIA
+binarias.json: 3 corpos; 7300 passos; max. desvio relativo de energia amostrado = 4.82947e-14
+corpo_livre.json: 3 corpos; 7300 passos; max. desvio relativo de energia amostrado = 9.24594e-13
+orbitas_3d.json: 4 corpos; 7300 passos; max. desvio relativo de energia amostrado = 1.28692e-08
+sistema_solar.json: 5 corpos; 7300 passos; max. desvio relativo de energia amostrado = 1.43328e-07
+
+Caminho de renderizacao exercitado sem janela: 212 primitivas, coordenadas finitas.
+Janela real de Tkinter NAO aberta: ambiente sem DISPLAY/servidor grafico.
+Eventos de mouse, disposicao visual e dialogos nao verificados em uma sessao grafica.
+Sintaxe: compilacao Python concluida. Nenhuma dependencia de terceiros no programa.

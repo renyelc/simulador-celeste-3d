@@ -1,0 +1,71 @@
+{
+  "versao": 1,
+  "tempo_dias": 0.0,
+  "suavizacao_ua": 1e-07,
+  "pausar_colisao": true,
+  "corpos": [
+    {
+      "id": "d3cd080d8d6c4a53aecb6437f25c416a",
+      "nome": "Sol",
+      "tipo": "Estrela",
+      "estrela_id": "",
+      "massa_kg": 1.98847e+30,
+      "raio_km": 696340,
+      "posicao_ua": [
+        2.6010271126165856e-06,
+        -1.5017031846227194e-06,
+        -2.01159081423171e-13
+      ],
+      "velocidade_km_s": [
+        4.472847841200528e-05,
+        7.747203373870454e-05,
+        5.028977035579275e-13
+      ],
+      "cor": "#ffcb62",
+      "raio_visual_px": 15,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "91838189a17945429579da04768d1ce1",
+      "nome": "Visitante",
+      "tipo": "Livre",
+      "estrela_id": "",
+      "massa_kg": 1e+18,
+      "raio_km": 50,
+      "posicao_ua": [
+        -2.999997398972887,
+        0.6999984982968154,
+        0.39999999999979885
+      ],
+      "velocidade_km_s": [
+        42.000044728478414,
+        7.747203373870454e-05,
+        -0.9999999999994972
+      ],
+      "cor": "#bf9aff",
+      "raio_visual_px": 5,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "dc9c79542cbc4b2bbf14d8288df4031d",
+      "nome": "Terra",
+      "tipo": "Em órbita",
+      "estrela_id": "d3cd080d8d6c4a53aecb6437f25c416a",
+      "massa_kg": 5.9722e+24,
+      "raio_km": 6371,
+      "posicao_ua": [
+        -0.8660228027573261,
+        0.4999984982968153,
+        -2.01159081423171e-13
+      ],
+      "velocidade_km_s": [
+        -14.892548720398656,
+        -25.794651037888766,
+        5.028977035579275e-13
+      ],
+      "cor": "#57bfff",
+      "raio_visual_px": 7,
+      "fator_distancia_visual": 1.0
+    }
+  ]
+}

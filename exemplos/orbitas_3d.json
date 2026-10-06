@@ -1,0 +1,92 @@
+{
+  "versao": 1,
+  "tempo_dias": 0.0,
+  "suavizacao_ua": 1e-07,
+  "pausar_colisao": true,
+  "corpos": [
+    {
+      "id": "2eb8049b112842d5a6520a59145b83c6",
+      "nome": "Sol",
+      "tipo": "Estrela",
+      "estrela_id": "",
+      "massa_kg": 1.98847e+30,
+      "raio_km": 696340,
+      "posicao_ua": [
+        -3.651378407614176e-06,
+        5.38264906600931e-06,
+        4.072209923056143e-06
+      ],
+      "velocidade_km_s": [
+        2.979665058088046e-05,
+        -6.872529559006268e-05,
+        4.8934313320681096e-05
+      ],
+      "cor": "#ffcb62",
+      "raio_visual_px": 15,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "ad5531ae0f81469493d65826c1ddf44e",
+      "nome": "Azul · 0°",
+      "tipo": "Em órbita",
+      "estrela_id": "2eb8049b112842d5a6520a59145b83c6",
+      "massa_kg": 5.9722e+24,
+      "raio_km": 6371,
+      "posicao_ua": [
+        0.9799963486215924,
+        5.38264906600931e-06,
+        4.072209923056143e-06
+      ],
+      "velocidade_km_s": [
+        2.979665058088046e-05,
+        30.38689991200205,
+        4.8934313320681096e-05
+      ],
+      "cor": "#59bfff",
+      "raio_visual_px": 8,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "6085811c86c049638a97de1e54405f7f",
+      "nome": "Verde · 45°",
+      "tipo": "Em órbita",
+      "estrela_id": "2eb8049b112842d5a6520a59145b83c6",
+      "massa_kg": 5.9722e+24,
+      "raio_km": 6371,
+      "posicao_ua": [
+        -1.2672017995043219,
+        -0.982663139699556,
+        0.6060955989412496
+      ],
+      "velocidade_km_s": [
+        2.073208217774774,
+        -18.748108540068657,
+        -11.169396152344477
+      ],
+      "cor": "#74e5b2",
+      "raio_visual_px": 8,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "cc510bf39a244f7c891a6ffe55b30915",
+      "nome": "Rosa · 80°",
+      "tipo": "Em órbita",
+      "estrela_id": "2eb8049b112842d5a6520a59145b83c6",
+      "massa_kg": 5.9722e+24,
+      "raio_km": 6371,
+      "posicao_ua": [
+        1.502947794104417,
+        -0.8095186918774654,
+        -1.9619597002358402
+      ],
+      "velocidade_km_s": [
+        -11.994162595076267,
+        11.243595105741823,
+        -5.123545519783174
+      ],
+      "cor": "#ef91cf",
+      "raio_visual_px": 8,
+      "fator_distancia_visual": 1.0
+    }
+  ]
+}

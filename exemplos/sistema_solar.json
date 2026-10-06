@@ -1,0 +1,113 @@
+{
+  "versao": 1,
+  "tempo_dias": 0.0,
+  "suavizacao_ua": 1e-07,
+  "pausar_colisao": true,
+  "corpos": [
+    {
+      "id": "b1edf48ee9f64c03b97859e8a5783aa4",
+      "nome": "Sol",
+      "tipo": "Estrela",
+      "estrela_id": "",
+      "massa_kg": 1.98847e+30,
+      "raio_km": 696340,
+      "posicao_ua": [
+        -4.349119732195514e-06,
+        1.8369951021790953e-06,
+        7.896361671099428e-08
+      ],
+      "velocidade_km_s": [
+        -7.376459806997505e-05,
+        -0.00013748872357399568,
+        2.9481247558103576e-06
+      ],
+      "cor": "#ffcb62",
+      "raio_visual_px": 15,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "44c6b6e6775b4b36acc3392ea1043d6d",
+      "nome": "Mercúrio",
+      "tipo": "Em órbita",
+      "estrela_id": "b1edf48ee9f64c03b97859e8a5783aa4",
+      "massa_kg": 3.3011e+23,
+      "raio_km": 2439.7,
+      "posicao_ua": [
+        -0.17170819967753626,
+        0.27175017051113876,
+        0.03793754808848111
+      ],
+      "velocidade_km_s": [
+        -50.994526201873164,
+        -24.127655365221816,
+        2.704216011169852
+      ],
+      "cor": "#b9b5ae",
+      "raio_visual_px": 4,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "d90e8fac07734d9e8ce629b6ee091278",
+      "nome": "Vênus",
+      "tipo": "Em órbita",
+      "estrela_id": "b1edf48ee9f64c03b97859e8a5783aa4",
+      "massa_kg": 4.8675e+24,
+      "raio_km": 6051.8,
+      "posicao_ua": [
+        0.3806569141798872,
+        -0.6199700142413348,
+        -0.03039238005331218
+      ],
+      "velocidade_km_s": [
+        29.609694365216487,
+        18.203136494506502,
+        -1.458852918730544
+      ],
+      "cor": "#efbe81",
+      "raio_visual_px": 7,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "80782801977446218bab0e9792f92c77",
+      "nome": "Terra",
+      "tipo": "Em órbita",
+      "estrela_id": "b1edf48ee9f64c03b97859e8a5783aa4",
+      "massa_kg": 5.9722e+24,
+      "raio_km": 6371,
+      "posicao_ua": [
+        0.9977497456867078,
+        -0.12427500509136141,
+        7.896361671099428e-08
+      ],
+      "velocidade_km_s": [
+        3.1970066482825015,
+        29.449714241358997,
+        2.9481247558103576e-06
+      ],
+      "cor": "#57bfff",
+      "raio_visual_px": 7,
+      "fator_distancia_visual": 1.0
+    },
+    {
+      "id": "cae7c755b3394e61af672afcb68deae0",
+      "nome": "Marte",
+      "tipo": "Em órbita",
+      "estrela_id": "b1edf48ee9f64c03b97859e8a5783aa4",
+      "massa_kg": 6.4171e+23,
+      "raio_km": 3389.5,
+      "posicao_ua": [
+        1.3918563630200673,
+        0.027087204670066457,
+        -0.033669272097698266
+      ],
+      "velocidade_km_s": [
+        0.4583736284920184,
+        26.29479390774946,
+        0.5391884098685621
+      ],
+      "cor": "#f58265",
+      "raio_visual_px": 6,
+      "fator_distancia_visual": 1.0
+    }
+  ]
+}
